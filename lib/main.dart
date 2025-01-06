@@ -81,6 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
             tooltip: 'Refresh',
             child: const Icon(Icons.refresh),
           ),
+          SizedBox(width: 10),
           FloatingActionButton(
             onPressed: _getRandomFood,
             tooltip: 'Random Food',
